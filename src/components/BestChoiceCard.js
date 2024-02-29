@@ -8,7 +8,7 @@ import Stars from "@/components/Stars";
 const BestChoiceCard = () => {
   return (
     <Container>
-      <div className="bg-white relative flex items-center gap-6 p-4 mt-8">
+      <div className="bg-white relative flex flex-col md:flex-row items-center gap-5 lg:gap-6 p-4 mt-8">
         <span className="absolute flex items-center gap-1 bg-[#FF7724] text-white text-xs p-1.5 rounded-r-md -left-1 -top-3">
           <CiTrophy />
           Best Choice
@@ -41,14 +41,14 @@ const BestChoiceCard = () => {
           </span>
         </div>
         <div className="mt-auto">
-          <div className="absolute top-0 right-10 text-[#074786] bg-[#F3F9FF] flex flex-col items-center rounded-b-lg px-8 py-6">
+          <div className="md:absolute top-0 right-10 text-[#074786] bg-[#F3F9FF] flex flex-col items-center rounded-b-lg px-8 py-6">
             <h4 className="text-xl sm:text-2xl lg:text-[32px] flex">
               9.8 <CiCircleInfo className="-mt-3 text-xs" />
             </h4>
-            <p className="text-sm">Exceptional</p>
+            <p className="text-sm pt-3 pb-1">Exceptional</p>
             <Stars starCount={5} />
           </div>
-          <button className="bg-[#1B88F4] text-white rounded-xl px-24 py-2">
+          <button className="bg-[#1B88F4] text-white rounded-xl mt-4 px-20 lg:px-24 py-2">
             View
           </button>
         </div>
