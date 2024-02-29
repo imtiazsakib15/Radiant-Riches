@@ -7,14 +7,14 @@ const Footer = () => {
       <Container>
         <div className="flex flex-col sm:flex-row">
           <div className="text-[#B6BDC4] flex sm:w-2/3 md:w-1/2 justify-between">
-            <div className="flex flex-col">
+            <div className="flex flex-col space-y-3">
               <h4 className="text-white">Categories</h4>
               <Link href="/">Web Builder</Link>
               <Link href="/">Hosting</Link>
               <Link href="/">Data Center</Link>
               <Link href="/">Robotic-Automation</Link>
             </div>
-            <div className="flex flex-col">
+            <div className="flex flex-col space-y-3">
               <h4 className="text-white">Contact</h4>
               <Link href="/">Contact</Link>
               <Link href="/">Privacy Policy</Link>

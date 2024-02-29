@@ -7,12 +7,12 @@ const SignUp = () => {
         <h2 className="text-center md:text-left text-xl sm:text-2xl lg:text-[32px] text-[#5C6874] max-w-[398px]">
           Sign up and get exclusive special deals
         </h2>
-        <div class="flex items-center mt-4 w-full max-w-80 lg:max-w-[445px]">
+        <div className="flex items-center mt-4 w-full max-w-80 lg:max-w-[445px]">
           <input
-            class="p-3 rounded-l-lg w-full focus:outline-blue-600"
+            className="p-3 rounded-l-lg w-full focus:outline-blue-600"
             type="text"
           />
-          <button class="text-sm bg-[#1B88F4] min-w-max text-white p-3.5 rounded-r-lg">
+          <button className="text-sm bg-[#1B88F4] min-w-max text-white p-3.5 rounded-r-lg">
             Sign Up
           </button>
         </div>
