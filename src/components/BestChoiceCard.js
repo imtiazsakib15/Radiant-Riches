@@ -17,7 +17,7 @@ const BestChoiceCard = () => {
           1
         </span>
         <div className="p-4 text-center text-sm">
-          <Image src={img} alt="Image" />
+          <Image src={img} alt="Image" width={150} height={110} />
           <span>Builder 1</span>
         </div>
         <div className="flex-1">
