@@ -8,12 +8,12 @@ import Stars from "@/components/Stars";
 const BestChoiceCard = () => {
   return (
     <Container>
-      <div className="bg-white relative flex flex-col md:flex-row items-center gap-5 lg:gap-6 p-4 mt-8">
+      <div className="bg-white relative flex flex-col md:flex-row items-center gap-5 lg:gap-6 p-4 mt-8 rounded-xl">
         <span className="absolute flex items-center gap-1 bg-[#FF7724] text-white p-1.5 rounded-r-md -left-1 -top-3">
           <CiTrophy />
           Best Choice
         </span>
-        <span className="absolute rounded-full border w-7 h-7 grid place-items-center -left-3 top-10 bg-white">
+        <span className="absolute rounded-full border w-10 h-10 grid place-items-center -left-5 top-10 bg-white">
           1
         </span>
         <div className="p-4 text-center text-sm">
@@ -36,7 +36,7 @@ const BestChoiceCard = () => {
             premium design templates, an extensive library of widgets and apps,
             and detailed step-by-step guides.
           </p>
-          <span className="text-blue-600 pt-3 flex items-center">
+          <span className="text-blue-600 pt-3 flex items-center gap-2 cursor-pointer">
             Show more <IoIosArrowDown />
           </span>
         </div>

@@ -9,12 +9,12 @@ import { IoDiamondOutline } from "react-icons/io5";
 const BestValueCard = () => {
   return (
     <Container>
-      <div className="bg-white relative flex flex-col md:flex-row items-center gap-5 lg:gap-6 p-4 mt-8">
+      <div className="bg-white relative flex flex-col md:flex-row items-center gap-5 lg:gap-6 p-4 mt-8 rounded-xl">
         <span className="absolute flex items-center gap-1 bg-[#FF7724] text-white p-1.5 rounded-r-md -left-1 -top-3">
           <IoDiamondOutline />
           Best Value
         </span>
-        <span className="absolute rounded-full border w-7 h-7 grid place-items-center -left-3 top-10 bg-white">
+        <span className="absolute rounded-full border w-10 h-10 grid place-items-center -left-5 top-10 bg-white">
           2
         </span>
         <div className="p-4 text-center text-sm">
@@ -37,7 +37,7 @@ const BestValueCard = () => {
             featuring a robust selection of design elements, SEO optimization
             tools, and e-commerce integrations.
           </p>
-          <span className="text-blue-600 pt-3 flex items-center">
+          <span className="text-blue-600 pt-3 flex items-center gap-2 cursor-pointer">
             Show more <IoIosArrowDown />
           </span>
         </div>

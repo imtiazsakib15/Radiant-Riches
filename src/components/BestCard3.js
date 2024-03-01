@@ -1,15 +1,14 @@
 import Container from "@/components/Container";
 import img from "@/assets/img.jpg";
 import Image from "next/image";
-import { CiCircleInfo, CiTrophy } from "react-icons/ci";
-import { IoIosArrowDown } from "react-icons/io";
+import { CiCircleInfo } from "react-icons/ci";
 import Stars from "@/components/Stars";
 
-const BestChoiceCard = () => {
+const BestCard3 = () => {
   return (
     <Container>
-      <div className="bg-white relative flex flex-col md:flex-row items-center gap-5 lg:gap-6 p-4 mt-8">
-        <span className="absolute rounded-full border w-7 h-7 grid place-items-center -left-3 top-10 bg-white">
+      <div className="bg-white relative flex flex-col md:flex-row items-center gap-5 lg:gap-6 p-4 mt-8 rounded-xl">
+        <span className="absolute rounded-full border w-10 h-10 grid place-items-center -left-5 top-10 bg-white">
           3
         </span>
         <div className="p-4 text-center text-sm">
@@ -32,9 +31,7 @@ const BestChoiceCard = () => {
             premium design templates, an extensive library of widgets and apps,
             and detailed step-by-step guides.
           </p>
-          <span className="text-blue-600 pt-3 flex items-center">
-            Show more <IoIosArrowDown />
-          </span>
+          <span className="text-blue-600 pt-3 cursor-pointer">Show more</span>
         </div>
         <div className="mt-auto">
           <div className="md:absolute top-0 right-10 text-[#074786] bg-[#F3F9FF] flex flex-col items-center rounded-b-lg px-8 py-6">
@@ -53,4 +50,4 @@ const BestChoiceCard = () => {
   );
 };
 
-export default BestChoiceCard;
+export default BestCard3;
